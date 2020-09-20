@@ -10,3 +10,4 @@ C:\Projects\Assignments\Maersk\OrderManagement\OrderManagement\OrderManagement\o
 C:\Projects\Assignments\Maersk\OrderManagement\OrderManagement\OrderManagement\obj\Debug\netcoreapp3.1\OrderManagement.dll
 C:\Projects\Assignments\Maersk\OrderManagement\OrderManagement\OrderManagement\obj\Debug\netcoreapp3.1\OrderManagement.pdb
 C:\Projects\Assignments\Maersk\OrderManagement\OrderManagement\OrderManagement\obj\Debug\netcoreapp3.1\OrderManagement.genruntimeconfig.cache
+C:\Projects\Assignments\Maersk\OrderManagement\OrderManagement\OrderManagement\obj\Debug\netcoreapp3.1\OrderManagement.csprojAssemblyReference.cache

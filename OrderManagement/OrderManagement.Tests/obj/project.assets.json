@@ -4641,11 +4641,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Projects\\Assignments\\Maersk\\OrderManagement\\OrderManagement\\OrderManagement.Tests1\\OrderManagement.Tests.csproj",
+      "projectUniqueName": "C:\\Projects\\Assignments\\Maersk\\OrderManagement\\OrderManagement\\OrderManagement.Tests\\OrderManagement.Tests.csproj",
       "projectName": "OrderManagement.Tests",
-      "projectPath": "C:\\Projects\\Assignments\\Maersk\\OrderManagement\\OrderManagement\\OrderManagement.Tests1\\OrderManagement.Tests.csproj",
+      "projectPath": "C:\\Projects\\Assignments\\Maersk\\OrderManagement\\OrderManagement\\OrderManagement.Tests\\OrderManagement.Tests.csproj",
       "packagesPath": "C:\\Users\\Dines\\.nuget\\packages\\",
-      "outputPath": "C:\\Projects\\Assignments\\Maersk\\OrderManagement\\OrderManagement\\OrderManagement.Tests1\\obj\\",
+      "outputPath": "C:\\Projects\\Assignments\\Maersk\\OrderManagement\\OrderManagement\\OrderManagement.Tests\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Dines\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "D8YXaSi8YpV3kOzoIsFUQdIoqBxwBjqr9UqnvMVUzf8hpZ2niiL3CiKaxqGtlx+2uM46So+rQPWn5BoEzIxX2g==",
+  "dgSpecHash": "XIw4QSwyktomZY5P70Xj5OHWekI/YMc/RI5zUMLRVeGfFQ4UH70ijyqQQPFYCz/3pUwyeHUq4SzxEUdXISjmUA==",
   "success": true,
-  "projectFilePath": "C:\\Projects\\Assignments\\Maersk\\OrderManagement\\OrderManagement\\OrderManagement.Tests1\\OrderManagement.Tests.csproj",
+  "projectFilePath": "C:\\Projects\\Assignments\\Maersk\\OrderManagement\\OrderManagement\\OrderManagement.Tests\\OrderManagement.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Dines\\.nuget\\packages\\microsoft.codecoverage\\16.4.0\\microsoft.codecoverage.16.4.0.nupkg.sha512",
     "C:\\Users\\Dines\\.nuget\\packages\\microsoft.csharp\\4.0.1\\microsoft.csharp.4.0.1.nupkg.sha512",
