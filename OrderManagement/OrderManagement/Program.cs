@@ -8,50 +8,49 @@ namespace OrderManagement
     {
         static void Main(string[] args)
         {
-
-
-            bool showMenu = true;
-            while (showMenu)
+            string userChoice = "";
+            do
             {
-                showMenu = Menu();
-            }
-            Console.ReadLine();
-        }
+                Console.Clear();
+                Console.WriteLine("---------------------Welcome to Order Management System---------------------");
+                Console.WriteLine("Please select appropriate options from below to start processing your Order:");
+                Console.WriteLine("1 - Processing a Physical Product");
+                Console.WriteLine("2 - Processing a Book");
+                Console.WriteLine("3 - Processing a Membership");
+                Console.WriteLine("4 - Processing a MembershipUpgrade");
+                Console.WriteLine("5 - Processing a LearningToSki");
 
-        private static bool Menu()
-        {
-            Console.Clear();
-            Console.WriteLine("---------------------Welcome to Order Management System---------------------");
-            Console.WriteLine("Please select appropriate options from below to start processing your Order:");
-            Console.WriteLine("1 - Processing a Physical Product");
-            Console.WriteLine("2 - Processing a Book");
-            Console.WriteLine("3 - Processing a Membership");
-            Console.WriteLine("4 - Processing a MembershipUpgrade");
-            Console.WriteLine("5 - Processing a LearningToSki");
-            Console.WriteLine("6 - Exit Application");
+                switch (Console.ReadLine())
+                {
+                    case "1":
+                        ProcessPhysicalProduct();
+                        break;
+                    case "2":
+                        ProcessBook();
+                        break;
+                    case "3":
+                        ProcessMembership();
+                        break;
+                    case "4":
+                        ProcessMembershipUpgrade();
+                        break;
+                    case "5":
+                        ProcessLearningToSki();
+                        break;
+                    default:
+                        break;
+                }
 
-            switch (Console.ReadLine())
-            {
-                case "1":
-                    ProcessPhysicalProduct();
-                    return false;
-                case "2":
-                    ProcessBook();
-                    return false;
-                case "3":
-                    ProcessMembership();
-                    return false;
-                case "4":
-                    ProcessMembershipUpgrade();
-                    return false;
-                case "5":
-                    ProcessLearningToSki();
-                    return false;
-                case "6":
-                    return false;
-                default:
-                    return true;
-            }
+                do
+                {
+                    Console.WriteLine("\nDo you want to continue - Yes or No?");
+                    userChoice = Console.ReadLine().ToUpper();
+                    if (userChoice != "YES" && userChoice != "NO")
+                    {
+                        Console.WriteLine("Invalid Choice, Please say Yes or No");
+                    }
+                } while (userChoice != "YES" && userChoice != "NO");
+            } while (userChoice == "YES");
         }
 
         public static void ProcessPhysicalProduct()
