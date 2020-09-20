@@ -18,5 +18,17 @@ namespace OrderManagement.Concretion
                 return "Membership activation failed due to an error";
             }
         }
+
+        public string EmailOwner(bool emailOwner)
+        {
+            if (emailOwner)
+            {
+                return "Email sent to Owner";
+            }
+            else
+            {
+                return "Email failed to sent to Onwer";
+            }
+        }
     }
 }

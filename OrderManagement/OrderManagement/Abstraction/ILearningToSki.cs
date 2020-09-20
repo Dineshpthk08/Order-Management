@@ -7,5 +7,6 @@ namespace OrderManagement.Abstraction
     public interface ILearningToSki
     {
         string AddFreeFirstAidVideo(bool addFreeFirstAidVideo);
+        
     }
 }

@@ -7,5 +7,6 @@ namespace OrderManagement.Abstraction
     public interface IMembershipUpgrade
     {
         string UpgradeMembership(bool upgradeMembership);
+        string EmailOwner(bool emailOwner);
     }
 }

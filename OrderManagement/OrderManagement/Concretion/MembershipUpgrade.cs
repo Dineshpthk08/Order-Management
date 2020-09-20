@@ -7,6 +7,18 @@ namespace OrderManagement.Concretion
 {
     public class MembershipUpgrade : IMembershipUpgrade
     {
+        public string EmailOwner(bool emailOwner)
+        {
+            if (emailOwner)
+            {
+                return "Email sent to Owner";
+            }
+            else
+            {
+                return "Email failed to sent to Onwer";
+            }
+        }
+
         public string UpgradeMembership(bool upgradeMembership)
         {
             if (upgradeMembership)
