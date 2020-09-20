@@ -15,7 +15,7 @@ namespace OrderManagement
             {
                 showMenu = Menu();
             }
-
+            Console.ReadLine();
         }
 
         private static bool Menu()
@@ -28,6 +28,7 @@ namespace OrderManagement
             Console.WriteLine("3 - Processing a Membership");
             Console.WriteLine("4 - Processing a MembershipUpgrade");
             Console.WriteLine("5 - Processing a LearningToSki");
+            Console.WriteLine("6 - Exit Application");
 
             switch (Console.ReadLine())
             {
