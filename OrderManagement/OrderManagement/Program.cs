@@ -57,13 +57,17 @@ namespace OrderManagement
         public static void ProcessPhysicalProduct()
         {
             ProcessPhysicalProduct processPhysicalProduct = new ProcessPhysicalProduct();
+            Commision commision = new Commision();
             Console.WriteLine(processPhysicalProduct.GeneratePackingSlip(true));
+            Console.WriteLine(commision.CommisionPayment());
         }
 
         public static void ProcessBook()
         {
             ProcessBook processBook = new ProcessBook();
+            Commision commision = new Commision();
             Console.WriteLine(processBook.CreateDuplicatePackingSlip(true));
+            Console.WriteLine(commision.CommisionPayment());
         }
 
         public static void ProcessMembership()
