@@ -1,4 +1,6 @@
 ﻿using NUnit.Framework;
+using OrderManagement.Abstraction;
+using OrderManagement.Concretion;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -8,38 +10,33 @@ namespace OrderManagement.Tests.V1.Business
     [TestFixture]
     public class ProcessPhysicalProductTests
     {
-        //private IProcessPhysicalProduct iProcessPhysicalProduct;
+
+        private IProcessPhysicalProduct _iProcessPhysicalProduct;
 
         [Test]
-        [TestCase(true, ExpectedResult = "Generated a packing slip for shipping")]
-        [TestCase(false, ExpectedResult = "Packing slip for shipping is not generated due to some error")]
-        public string PhysicalProduct_ShouldReturnSuccess_WhenGeneratePackingSlipIsTrue(bool generatePackingSlip)
+        public void PhysicalProduct_ShouldReturnSuccess_WhenGeneratePackingSlipIsTrue()
         {
-            //// Arrange/Act
-            //_basicDataFixture = new BasicDataFixture();
-            //_testServer = new TestServerFixture(BuildTestRegistryForSuccess());
+            // Arrange
+            _iProcessPhysicalProduct = new ProcessPhysicalProduct();
 
-            //var response = _testServer.Client.GetAsync(string.Format("/primefactor?number={0}", number)).Result;
-            //var body = response.Content.ReadAsStringAsync().Result;
-
-            //// Assert
-            //response.StatusCode.Should().Be(HttpStatusCode.OK);
-
-            //_basicDataFixture.Dispose();
-            //_testServer.Dispose();            //// Arrange/Act
-            //_basicDataFixture = new BasicDataFixture();
-            //_testServer = new TestServerFixture(BuildTestRegistryForSuccess());
-
-            //var response = _testServer.Client.GetAsync(string.Format("/primefactor?number={0}", number)).Result;
-            //var body = response.Content.ReadAsStringAsync().Result;
+            //// Act
+            var response = _iProcessPhysicalProduct.GeneratePackingSlip(true);
 
             //// Assert
-            //response.StatusCode.Should().Be(HttpStatusCode.OK);
+            response.Equals("Generated a packing slip for shipping");
+        }
 
-            //_basicDataFixture.Dispose();
-            //_testServer.Dispose();
+        [Test]
+        public void PhysicalProduct_ShouldReturnFailure_WhenGeneratePackingSlipIsFalse()
+        {
+            // Arrange
+            _iProcessPhysicalProduct = new ProcessPhysicalProduct();
 
-            return body;
+            //// Act
+            var response = _iProcessPhysicalProduct.GeneratePackingSlip(false);
+
+            //// Assert
+            response.Equals("Packing slip for shipping is not generated due to some error");
         }
     }
 }
