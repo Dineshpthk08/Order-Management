@@ -14,7 +14,7 @@ namespace OrderManagement.Tests.V1.Business
         private IProcessPhysicalProduct _iProcessPhysicalProduct;
 
         [Test]
-        public void PhysicalProduct_ShouldReturnSuccess_WhenGeneratePackingSlipIsTrue()
+        public void PhysicalProduct_ShouldProcessPhysicalProduct_WhenGeneratePackingSlipIsTrue()
         {
             // Arrange
             _iProcessPhysicalProduct = new ProcessPhysicalProduct();
@@ -27,7 +27,7 @@ namespace OrderManagement.Tests.V1.Business
         }
 
         [Test]
-        public void PhysicalProduct_ShouldReturnFailure_WhenGeneratePackingSlipIsFalse()
+        public void PhysicalProduct_ShouldNotProcessPhysicalProduct_WhenGeneratePackingSlipIsFalse()
         {
             // Arrange
             _iProcessPhysicalProduct = new ProcessPhysicalProduct();

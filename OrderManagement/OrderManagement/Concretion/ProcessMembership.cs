@@ -5,7 +5,7 @@ using System.Text;
 
 namespace OrderManagement.Concretion
 {
-    class ProcessMembership : IProcessMembership
+    public class ProcessMembership : IProcessMembership
     {
         public string ActivateMembership(bool activateMembership)
         {
