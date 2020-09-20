@@ -1,0 +1,12 @@
+C:\Projects\Assignments\Maersk\OrderManagement\OrderManagement\OrderManagement\bin\Debug\netcoreapp3.1\OrderManagement.exe
+C:\Projects\Assignments\Maersk\OrderManagement\OrderManagement\OrderManagement\bin\Debug\netcoreapp3.1\OrderManagement.deps.json
+C:\Projects\Assignments\Maersk\OrderManagement\OrderManagement\OrderManagement\bin\Debug\netcoreapp3.1\OrderManagement.runtimeconfig.json
+C:\Projects\Assignments\Maersk\OrderManagement\OrderManagement\OrderManagement\bin\Debug\netcoreapp3.1\OrderManagement.runtimeconfig.dev.json
+C:\Projects\Assignments\Maersk\OrderManagement\OrderManagement\OrderManagement\bin\Debug\netcoreapp3.1\OrderManagement.dll
+C:\Projects\Assignments\Maersk\OrderManagement\OrderManagement\OrderManagement\bin\Debug\netcoreapp3.1\OrderManagement.pdb
+C:\Projects\Assignments\Maersk\OrderManagement\OrderManagement\OrderManagement\obj\Debug\netcoreapp3.1\OrderManagement.AssemblyInfoInputs.cache
+C:\Projects\Assignments\Maersk\OrderManagement\OrderManagement\OrderManagement\obj\Debug\netcoreapp3.1\OrderManagement.AssemblyInfo.cs
+C:\Projects\Assignments\Maersk\OrderManagement\OrderManagement\OrderManagement\obj\Debug\netcoreapp3.1\OrderManagement.csproj.CoreCompileInputs.cache
+C:\Projects\Assignments\Maersk\OrderManagement\OrderManagement\OrderManagement\obj\Debug\netcoreapp3.1\OrderManagement.dll
+C:\Projects\Assignments\Maersk\OrderManagement\OrderManagement\OrderManagement\obj\Debug\netcoreapp3.1\OrderManagement.pdb
+C:\Projects\Assignments\Maersk\OrderManagement\OrderManagement\OrderManagement\obj\Debug\netcoreapp3.1\OrderManagement.genruntimeconfig.cache

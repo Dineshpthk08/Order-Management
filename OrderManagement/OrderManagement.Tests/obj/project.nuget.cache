@@ -1,0 +1,22 @@
+{
+  "version": 2,
+  "dgSpecHash": "KQmKUuWYYvcHaQ5OAXRpEe4WI6c0KieNiQfoTi1zv2kTa5Doc07wvxIBtq3+TTeFuM7yRIZxLrz85YxSeNBy7w==",
+  "success": false,
+  "projectFilePath": "C:\\Projects\\Assignments\\Maersk\\OrderManagement\\OrderManagement\\OrderManagement.Tests\\OrderManagement.Tests.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Dines\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Dines\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\Dines\\.nuget\\packages\\nunit\\3.12.0\\nunit.3.12.0.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "Project OrderManagement is not compatible with netstandard2.0 (.NETStandard,Version=v2.0). Project OrderManagement supports: netcoreapp3.1 (.NETCoreApp,Version=v3.1)",
+      "libraryId": "OrderManagement",
+      "targetGraphs": [
+        ".NETStandard,Version=v2.0"
+      ]
+    }
+  ]
+}
